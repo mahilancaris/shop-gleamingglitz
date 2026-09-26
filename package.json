@@ -1,0 +1,15 @@
+{
+  "name": "aether-vault-discord-bot",
+  "version": "1.0.0",
+  "description": "Full Interactive Discord Bot with Slash Commands for Aether Vault DB Manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "bot", "backup", "mysql", "slash-commands"],
+  "author": "Aether Vault",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}

@@ -1,0 +1,8 @@
+# Block direct HTTP web access to Discord bot directory
+<IfModule authz_core_module>
+    Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+    Order Deny,Allow
+    Deny from all
+</IfModule>
